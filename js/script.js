@@ -1,24 +1,22 @@
 
-  const shopingList = ["Latte", "Pane", "Uova", "Frutta", "Verdura"];
+const shopingList = ["Latte", "Pane", "Uova", "Frutta", "Verdura"];
         
   
-  let i = 0;
+let i = 0;
   
   
-  const shopingListPrint = document.getElementById("lista-spesa");
+const shopingListPrint = document.getElementById("lista-spesa");
   
  
-  while (i < shopingList.length) {
-      const article = shopingList[i];
+while (i < shopingList.length) {
+  const article = shopingList[i];
       
-      i++;
+  i++;
 
-      const listItem = document.createElement("li");
-
-      listItem.textContent = article;
-      
-      
-      shopingListPrint.append(listItem);
-      
-      
-  }
+  const listItem = document.createElement("li");
+  listItem.textContent = article;
+    
+    
+  shopingListPrint.append(listItem);
+         
+}
