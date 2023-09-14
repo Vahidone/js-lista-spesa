@@ -18,7 +18,7 @@
       listItem.textContent = article;
       
       
-      shopingListPrint.appendChild(listItem);
+      shopingListPrint.append(listItem);
       
       
   }
